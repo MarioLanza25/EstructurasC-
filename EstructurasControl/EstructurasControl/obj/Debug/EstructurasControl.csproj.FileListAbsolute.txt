@@ -8,3 +8,14 @@ C:\Users\JADPA26\Desktop\NP\EstructurasControl\EstructurasControl\obj\Debug\Estr
 C:\Users\JADPA26\Desktop\NP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csproj.CoreCompileInputs.cache
 C:\Users\JADPA26\Desktop\NP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.exe
 C:\Users\JADPA26\Desktop\NP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.pdb
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csprojAssemblyReference.cache
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.Form1.resources
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.FrmInterative.resources
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.Properties.Resources.resources
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csproj.GenerateResource.cache
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.csproj.CoreCompileInputs.cache
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.exe
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\obj\Debug\EstructurasControl.pdb
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.exe.config
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.exe
+C:\Users\JADPA26\Desktop\PPP\EstructurasControl\EstructurasControl\bin\Debug\EstructurasControl.pdb

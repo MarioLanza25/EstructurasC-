@@ -40,7 +40,6 @@
             this.txtNumeros.Size = new System.Drawing.Size(204, 20);
             this.txtNumeros.TabIndex = 0;
             this.txtNumeros.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox1_KeyDown);
-            this.txtNumeros.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
             // label1
             // 
@@ -53,18 +52,17 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(100, 83);
+            this.txtResultado.Location = new System.Drawing.Point(38, 83);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(204, 141);
+            this.txtResultado.Size = new System.Drawing.Size(313, 196);
             this.txtResultado.TabIndex = 2;
-            this.txtResultado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
             // FrmInterative
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 236);
+            this.ClientSize = new System.Drawing.Size(384, 291);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumeros);

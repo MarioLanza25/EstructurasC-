@@ -20,11 +20,6 @@ namespace EstructurasControl
             numeros = new List<int>();
         }
 
-        private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
         private int? getValue(string value)
         {
             if (int.TryParse(value, out int v))
@@ -44,11 +39,15 @@ namespace EstructurasControl
                 {
                     return;
                 }
-                if ((value = getValue(txtNumeros.Text)) == null)
+                numeros.Add(value ?? 0);
+                txtNumeros.Text = " ";
+
+                if (numeros.Count == 5)
                 {
+                    txtNumeros.Enabled = false;
+                    Calcular();
                     return;
                 }
-                numeros.Add(value ?? 0);
             }
 
         }
@@ -56,17 +55,19 @@ namespace EstructurasControl
         private void Calcular()
         {
             long resultado = 0;
-            //for (int i = 1; i < numeros.Count; i++)
+            //for (int i = 0; i < numeros.Count; i++)
             //{
-            //    resultado = (long)Math.Pow(numeros.ElementAt(i), 2);
-            //    txtResultado.AppendText("{numeros.ElementAt(i)} ^2 = { Math.Pow(numeros.ElementAt(i), 2)}\n" };
+            //    resultado += (long) Math.Pow(numeros.ElementAt(i),2);
+            //    txtResultados.AppendText($"{numeros.ElementAt(i)}^2 = { Math.Pow(numeros.ElementAt(i), 2)}\n");
+
+            //} txtResultado.AppendText("{numeros.ElementAt(i)} ^2 = { Math.Pow(numeros.ElementAt(i), 2)}\n" };
 
             foreach (int i in numeros)
             {
                 resultado += (long)Math.Pow(i, 2);
                 txtResultado.AppendText($"{i}^2 = {Math.Pow(i , 2)} " +Environment.NewLine);
             }
+            txtResultado.AppendText($"Total = {resultado}");
         }
-
     }
 }

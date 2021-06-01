@@ -68,7 +68,6 @@
             this.Controls.Add(this.txtNumeros);
             this.Name = "FrmInterative";
             this.Text = "FrmInterative";
-            this.Load += new System.EventHandler(this.FrmInterative_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

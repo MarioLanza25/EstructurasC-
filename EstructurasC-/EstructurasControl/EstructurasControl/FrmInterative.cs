@@ -69,10 +69,5 @@ namespace EstructurasControl
             }
             txtResultado.AppendText($"Total = {resultado}");
         }
-
-        private void FrmInterative_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

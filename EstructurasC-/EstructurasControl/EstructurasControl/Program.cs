@@ -16,7 +16,7 @@ namespace EstructurasControl
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmActivo());
+            Application.Run(new FrmInterative());
         }
     }
 }
